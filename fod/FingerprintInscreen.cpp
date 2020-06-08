@@ -127,7 +127,6 @@ Return<int32_t> FingerprintInscreen::getDimAmount(int32_t brightness) {
 Return<int32_t> FingerprintInscreen::getDimAmount(int32_t) {
     int dimAmount = get(DIM_AMOUNT_PATH, 0);
     LOG(INFO) << "dimAmount = " << dimAmount;
-
     return dimAmount;
 */
 

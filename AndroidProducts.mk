@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_RMX1921.mk
+    $(LOCAL_DIR)/pixys_RMX1921.mk
+COMMON_LUNCH_CHOICES := \
+    pixys_RMX1921-user \
+    pixys_RMX1921-userdebug \
+    pixys_RMX1921-eng
